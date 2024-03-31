@@ -2,6 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { CgShoppingCart } from "react-icons/cg";
 import { AiOutlineHeart } from "react-icons/ai";
+import { HiAnnotation } from "react-icons/hi";
 import "./Header.scss";
 import { Context } from "../../utils/context";
 import Cart from "../Cart/Cart";
@@ -39,7 +40,7 @@ const Header = () => {
                         DARKWOOD FURNITURE STORE
                     </div>
                     <div className="right">
-
+                    <HiAnnotation onClick={()=>navigate("/Newslater")} />
                         <AiOutlineHeart />
                         <span
                             className="cart-icon"
