@@ -31,6 +31,8 @@ const Header = () => {
                 className={`main-header ${scrolled ? "sticky-header" : ""}`}
             >
                 <div className="header-content">
+                    
+
                     <ul className="left">
                         <li onClick={() => navigate("/")}>Home</li>
                         <li onClick={() => navigate("/about")}>About</li>
@@ -40,6 +42,9 @@ const Header = () => {
                         DARKWOOD FURNITURE STORE
                     </div>
                     <div className="right">
+    
+
+    
                     <HiAnnotation onClick={()=>navigate("/Newslater")} />
                         <AiOutlineHeart />
                         <span

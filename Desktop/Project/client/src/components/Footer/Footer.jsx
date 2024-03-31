@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.scss";
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import Payment from "../../assets/payments.png";
+import Flag from "../../assets/serbia.png"
 const Footer = () => {
     return (
         <div className="footer">
@@ -52,6 +53,7 @@ const Footer = () => {
                         DARKWOOD FURNITURE STORE 2024 CREATED BY DIMITRIJE OBRADOVIC E-COMMERCE
                         SITE.
                     </span>
+                    <img src={Flag} alt="" />
                     <img src={Payment}   alt=""/>
                 </div>
             </div>
